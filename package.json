@@ -1,1 +1,40 @@
-{     "devDependencies": {         "nexe": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-nexe",     "homepage": "https://github.com/npmtest/node-npmtest-nexe",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-nexe.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [nexe (v1.1.2)](https://github.com/jaredallard/nexe#readme) [![npm package](https://img.shields.io/npm/v/npmtest-nexe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nexe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nexe.svg)](https://travis-ci.org/npmtest/node-npmtest-nexe)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "nexe": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-nexe",
+    "keywords": [
+        "coverage",
+        "test",
+        "nexe"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_nexe.js",
+    "name": "npmtest-nexe",
+    "nameAlias": "npmtest_nexe",
+    "nameOriginal": "npmtest-nexe",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-nexe.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
