@@ -1,7 +1,10 @@
-# test coverage for  [nexe (v1.1.2)](https://github.com/jaredallard/nexe#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nexe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nexe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nexe.svg)](https://travis-ci.org/npmtest/node-npmtest-nexe)
+# npmtest-nexe
+
+#### test coverage for  [nexe (v1.1.2)](https://github.com/jaredallard/nexe#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-nexe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nexe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nexe.svg)](https://travis-ci.org/npmtest/node-npmtest-nexe)
+
 #### create single executables out of your [node/io].js applications
 
-[![NPM](https://nodei.co/npm/nexe.png?downloads=true)](https://www.npmjs.com/package/nexe)
+[![NPM](https://nodei.co/npm/nexe.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/nexe)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-nexe/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-nexe/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-nexe/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nexe/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nexe/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-nexe/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-nexe/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-nexe/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-nexe/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-nexe/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-nexe%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-nexe/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-nexe/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-nexe/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-nexe/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-nexe%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-nexe/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-nexe/build/test-report.html](https://npmtest.github.io/node-npmtest-nexe/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-nexe/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-nexe/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-nexe/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-nexe/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-nexe/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-nexe/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-nexe/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Jared Allard",
-        "email": "jaredallard@outlook.com"
+        "name": "Jared Allard"
     },
     "bin": {
         "nexe": "bin/nexe"
@@ -39,7 +47,6 @@
     "contributors": [
         {
             "name": "Criag Condon",
-            "email": "craig.j.condon@gmail.com",
             "url": "http://crcn.io/"
         }
     ],
@@ -74,16 +81,13 @@
     "main": "./lib/index.js",
     "maintainers": [
         {
-            "name": "architectd",
-            "email": "craig.j.condon@gmail.com"
+            "name": "architectd"
         },
         {
-            "name": "crcn",
-            "email": "craig.j.condon@gmail.com"
+            "name": "crcn"
         },
         {
-            "name": "rainbowdashdc",
-            "email": "jaredallard@outlook.com"
+            "name": "rainbowdashdc"
         }
     ],
     "name": "nexe",
@@ -99,7 +103,6 @@
     },
     "optionalDependencies": {},
     "preferGlobal": true,
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/jaredallard/nexe.git"
